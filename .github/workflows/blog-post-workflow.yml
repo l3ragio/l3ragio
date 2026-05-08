@@ -19,6 +19,6 @@ jobs:
         with:
           feed_list: "https://l3ragio.github.io/feed.xml"
           max_post_count: 5
-          template: "- [$title]($url) <sub>$date</sub>\n"
+          template: "- [$title]($url) <sub>$date</sub>$newline"
           date_format: "mmm d, yyyy"
           comment_tag_name: "BLOG-POST-LIST"
