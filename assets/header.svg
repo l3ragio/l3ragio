@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 320"
+     width="1200" height="320"
+     role="img"
+     aria-label="Davide Bragetti - Independent AI researcher, Anthropic Safety Fellow, Princeton Visiting Researcher">
+
+  <defs>
+    <!-- Page tone with a subtle right-edge accent gradient,
+         echoing the atmospheric rail of the blog. -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#0B0F14"/>
+      <stop offset="78%" stop-color="#0B0F14"/>
+      <stop offset="100%" stop-color="#10202A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <line x1="1000" y1="0" x2="1000" y2="320" stroke="#1B2230" stroke-width="1"/>
+
+  <!-- Hollow rings: stroke-only, 1.25px, drift via SMIL.
+       Each orb animates cx, cy, AND r on independent durations
+       (desynced to keep motion organic). Right-bias on opacity
+       matches the blog's orbs. r pulses between ~85% and ~130%
+       of the base radius. -->
+  <g fill="none" stroke="#00FFC6" stroke-width="1.25">
+
+    <!-- left band, lower opacity -->
+    <circle cx="180" cy="80" r="32" stroke-opacity="0.18">
+      <animate attributeName="cx" values="180;220;160;180" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="80;130;100;80"   dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="32;42;28;32"     dur="7s"  repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="280" cy="230" r="22" stroke-opacity="0.20">
+      <animate attributeName="cx" values="280;240;320;280" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="230;200;250;230" dur="9s"  repeatCount="indefinite"/>
+      <animate attributeName="r"  values="22;28;19;22"     dur="6s"  repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="380" cy="60" r="18" stroke-opacity="0.16">
+      <animate attributeName="cx" values="380;420;360;380" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;90;70;60"     dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="18;24;15;18"     dur="8s"  repeatCount="indefinite"/>
+    </circle>
+
+    <!-- middle band, medium opacity -->
+    <circle cx="500" cy="240" r="28" stroke-opacity="0.22">
+      <animate attributeName="cx" values="500;460;540;500" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="240;210;260;240" dur="8s"  repeatCount="indefinite"/>
+      <animate attributeName="r"  values="28;36;24;28"     dur="9s"  repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="640" cy="120" r="24" stroke-opacity="0.24">
+      <animate attributeName="cx" values="640;680;610;640" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="120;150;100;120" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="24;32;20;24"     dur="7s"  repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="780" cy="70" r="20" stroke-opacity="0.26">
+      <animate attributeName="cx" values="780;820;760;780" dur="9s"  repeatCount="indefinite"/>
+      <animate attributeName="cy" values="70;100;60;70"    dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="20;26;17;20"     dur="6s"  repeatCount="indefinite"/>
+    </circle>
+
+    <!-- right band, higher opacity (right-bias) -->
+    <circle cx="900" cy="220" r="18" stroke-opacity="0.30">
+      <animate attributeName="cx" values="900;940;870;900" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="220;250;200;220" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="18;24;15;18"     dur="8s"  repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1020" cy="60" r="26" stroke-opacity="0.32">
+      <animate attributeName="cx" values="1020;1060;990;1020" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;90;50;60"        dur="9s"  repeatCount="indefinite"/>
+      <animate attributeName="r"  values="26;34;22;26"        dur="7s"  repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1080" cy="180" r="32" stroke-opacity="0.28">
+      <animate attributeName="cx" values="1080;1110;1050;1080" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="180;210;160;180"     dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="32;42;27;32"         dur="9s"  repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1150" cy="120" r="20" stroke-opacity="0.34">
+      <animate attributeName="cx" values="1150;1170;1130;1150" dur="8s"  repeatCount="indefinite"/>
+      <animate attributeName="cy" values="120;90;140;120"      dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="20;26;17;20"         dur="6s"  repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1130" cy="270" r="28" stroke-opacity="0.30">
+      <animate attributeName="cx" values="1130;1170;1100;1130" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="270;240;280;270"     dur="9s"  repeatCount="indefinite"/>
+      <animate attributeName="r"  values="28;36;24;28"         dur="8s"  repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="970" cy="280" r="16" stroke-opacity="0.30">
+      <animate attributeName="cx" values="970;940;1000;970" dur="9s"  repeatCount="indefinite"/>
+      <animate attributeName="cy" values="280;260;290;280"  dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="r"  values="16;22;13;16"      dur="7s"  repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Typography overlay. Serif for the name; italic serif for the
+       tagline (mirrors the blog's "Serving Europe." site subtitle).
+       Fallbacks chosen to look acceptable on every platform without
+       embedding webfonts. -->
+  <g font-family="Spectral, Source Serif Pro, Georgia, 'Times New Roman', serif">
+    <text x="60" y="160"
+          fill="#F1F5F9"
+          font-size="64"
+          font-weight="600"
+          letter-spacing="-1.2">Davide Bragetti</text>
+
+    <text x="62" y="205"
+          fill="#94A3B8"
+          font-size="22"
+          font-style="italic"
+          font-weight="400"
+          letter-spacing="0.2">Serving Europe.</text>
+  </g>
+
+</svg>
