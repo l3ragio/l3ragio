@@ -10,11 +10,11 @@
 
 ## Recent writing
 <!-- BLOG-POST-LIST:START -->
+- [Uno, nessuno, centomila e tutti](https://l3ragio.github.io/posts/uno_nessuno_centomila_e_tutti/) <sub>May 19, 2026</sub>
 - [Misalignment by Reaction](https://l3ragio.github.io/posts/misalignment-by-reaction/) <sub>May 9, 2026</sub>
 - [Does Safe AI mean nothing bad can ever happen?](https://l3ragio.github.io/posts/does-safe-ai-equal-safe-world/) <sub>May 7, 2026</sub>
 - [To Be or to Game](https://l3ragio.github.io/posts/to-be-or-to-game/) <sub>May 6, 2026</sub>
-- [Kerberos](https://l3ragio.github.io/posts/a7953a82fd2b/) <sub>Feb 28, 2025</sub>
-- [Choose Your Words Carefully in the Era of Peace, the Era of Silence](https://l3ragio.github.io/posts/393bf888b4e8/) <sub>Aug 23, 2024</sub><!-- BLOG-POST-LIST:END -->
+- [Kerberos](https://l3ragio.github.io/posts/a7953a82fd2b/) <sub>Feb 28, 2025</sub><!-- BLOG-POST-LIST:END -->
 
 ## Reach
 
